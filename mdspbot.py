@@ -72,4 +72,4 @@ async def on_message(message):
     elif message.content.startswith('/help'):
         await client.send_message(message.channel, ' commands are as followed `/test`, `/sleep`, `/addquote`,`/quote`,`/hooters`,`/meme`,`/help: which shows this message`')
        
-client.run("MzQwNTM4NTg5ODYxMzgwMTIx.DcJogw.wgJkrUl2YZ6VoeZ5RCswp6fe_sM")
+client.login(process.env.BOT_TOKEN)
